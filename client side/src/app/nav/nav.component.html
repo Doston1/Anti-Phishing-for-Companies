@@ -1,0 +1,19 @@
+<header>
+
+<div class="topnav">
+    <a class="sybol">Phishing Test</a>
+    <div class="roters">
+        <a routerLink="/home"  *ngIf="loginCheck()!=true" >Home</a>
+        <a routerLink="/register"  *ngIf="loginCheck()!=true" >Register</a>
+        <a routerLink="/" *ngIf="loginCheck()!=true"  >login</a>
+        
+        <a routerLink="/profile" *ngIf="loginCheck()==true" >profile</a>
+        <a routerLink="/create" *ngIf="loginCheck()==true" >create expriment</a>
+        <a routerLink="/allexperiment"  *ngIf="loginCheck()==true" >AllExpriment</a>
+        <a routerLink="/staticis" *ngIf="loginCheck()==true" >statistics </a>
+        <a routerLink="/logout" *ngIf="loginCheck()==true" >logout</a>
+        
+        
+    </div>
+</div>
+</header>

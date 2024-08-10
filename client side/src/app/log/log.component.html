@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Login</h1>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" #email placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input #password type="password" placeholder="Enter Password" name="psw" required>
+     <div>
+       <div class="loader" *ngIf="finishedRes"></div>
+     </div>
+    <div class="clearfix">
+      <button (click)="login(email.value, password.value)" class="signupbtn">Login</button>
+    </div>
+  </div>
+
+  
+

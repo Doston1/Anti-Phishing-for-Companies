@@ -1,0 +1,25 @@
+  
+  <div class="form-inline">
+    <input type="email" #email id="email" placeholder="email" name="email">
+    <button (click)="plus(email.value)">+</button>
+  </div>
+  
+  <div class="form-inline">
+
+    <ul>
+           <li  *ngFor="let email of emails">{{email}}</li> 
+    </ul>
+  </div>
+
+  
+<div class="form-inline">
+    <button  (click)="sendit()">send</button> 
+</div>
+    
+
+
+
+  
+    
+  
+  

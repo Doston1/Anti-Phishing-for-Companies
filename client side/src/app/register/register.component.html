@@ -1,0 +1,18 @@
+<div class="form-inline">
+    
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <input type="text" #email placeholder="Enter Email" name="email" required>
+
+    <input #password type="password" placeholder="Enter Password" name="psw" required>
+
+    <input #firstname type="text" placeholder="firstname" name="firstname" required>
+    
+    <input #lastname type="text" placeholder="firstname" name="lastname" required>
+ 
+
+      <button  (click)="add(firstname.value, lastname.value,email.value,password.value)" class="signupbtn">register</button>
+  </div>
+
