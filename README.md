@@ -1,6 +1,6 @@
 # Anti-Phishing-for-Companies
 
-This project was created and written for a 5 point bagrut in Computer Science - Cyber in 2019, while I was studying in the 12th grade in Shevach-Moffet high-school.
+This project was created and written for a 5 points final exam (Bagrut exam) in Computer Science - Cyber in 2019, while I was studying in the 12th grade in Shevach-Moffet high-school.
 
 The project was a website for company managers to check if their workers know enough about phishing and know how to defend themselves.
 
